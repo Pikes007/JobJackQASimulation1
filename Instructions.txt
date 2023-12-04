@@ -1,0 +1,48 @@
+# QA Simulation/Challenge (Public)
+
+Hi there! We are excited to offer you the opportunity to engage with our QA technical assessment.
+
+The purpose of this assessment is to showcase your current level of proficiency and understanding of core concepts pertaining to testing within JOBJACK.
+
+Read through the below challenges and complete them as best possible.
+
+Feel free to let me know if you have any question. Best of luck!
+
+## Simulation 1 - Testing Automation:
+
+Below is a basic coding challenge to give you an idea of what would be expected from you in this role. This challenge is a end-to-end user test, where the user wants to create a JOBJACK profile.
+
+Utilise the resources provided to help you complete the assessment.
+
+If you are not able to finish this, do not worry, only do what you are able to do. Do not be afraid to experiment, we are looking forward to see your work in action!
+
+**Resources:**
+
+TestCafe Documentations: https://testcafe.io/
+
+YouTube Videos:
+
+- https://www.youtube.com/watch?v=i5-EUAIcxLA
+- https://www.youtube.com/watch?v=XaCHNkL77NI
+
+### **Challenge**
+
+Write a TestCafe script that automates the following process:
+
+1. Opens www.jobjack.co.za
+2. Navigates to the “Job Seeker” page
+3. Selects `Find A Job`
+4. Fills in the Sign Up page with the following information:
+    1. First Name: Job
+    2. Last Name: Jack
+    3. Mobile Number: 012 345 6789
+    4. Do you have a WhatsApp number: Same as mobile number
+    5. Do you want to receive notifications via WhatsApp: Yes
+    6. Email: (use a unique email here)
+    7. Location: South Africa, Bellville, Bellville Park
+    8. Copy the word "Register" at the top of the screen and make that your password
+    9. Display your password
+    10. How did you hear about us: Select `Radio`
+5. Pause for 30 seconds
+6. Select `Register`
+7. Stop here
